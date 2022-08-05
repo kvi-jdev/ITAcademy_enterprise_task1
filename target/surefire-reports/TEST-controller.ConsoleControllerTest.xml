@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="entity.apartment.ApartmentTest" time="0" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="controller.ConsoleControllerTest" time="0.213" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -60,7 +60,11 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="entity.apartment.ApartmentTest" name="test_getDeviceListFromShop" time="0"/>
-  <testcase classname="entity.apartment.ApartmentTest" name="test_getDeviceList" time="0"/>
-  <testcase classname="entity.apartment.ApartmentTest" name="test_getShopList" time="0"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_checkIfNumber" time="0.016"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_setApartment" time="0.141"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_checkSmallUserName" time="0"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_checkUserName" time="0"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_checkIfNotNumber" time="0.056"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_setUserName" time="0"/>
+  <testcase classname="controller.ConsoleControllerTest" name="test_getUserName" time="0"/>
 </testsuite>

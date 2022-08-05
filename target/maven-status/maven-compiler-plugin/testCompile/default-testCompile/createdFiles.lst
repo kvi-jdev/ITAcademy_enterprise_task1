@@ -1,0 +1,4 @@
+entity\apartment\ApartmentTest.class
+controller\ConsoleControllerTest.class
+repository\ApartmentRepositoryImplTest.class
+entity\device\DeviceTest.class

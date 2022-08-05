@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="repository.ApartmentRepositoryImplTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="repository.ApartmentRepositoryImplTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -62,7 +62,7 @@
   </properties>
   <testcase classname="repository.ApartmentRepositoryImplTest" name="test_addTwoDevice" time="0"/>
   <testcase classname="repository.ApartmentRepositoryImplTest" name="test_turnOnTargetDevice" time="0"/>
-  <testcase classname="repository.ApartmentRepositoryImplTest" name="test_readAll" time="0.001"/>
+  <testcase classname="repository.ApartmentRepositoryImplTest" name="test_readAll" time="0"/>
   <testcase classname="repository.ApartmentRepositoryImplTest" name="test_addOneDevice" time="0"/>
   <testcase classname="repository.ApartmentRepositoryImplTest" name="test_turnOnAllDevices" time="0"/>
 </testsuite>
