@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Apartment {
 
-    private List<Device> deviceList;
+    private final List<Device> deviceList;
 
     private final String[] shopList = Arrays.stream(DeviceType.values()).map(DeviceType::getDeviceName)
             .toArray(String[]::new);
@@ -23,10 +23,6 @@ public class Apartment {
 
     public List<Device> getDeviceList() {
         return deviceList;
-    }
-
-    public void setDeviceList(List<Device> deviceList) {
-        this.deviceList = deviceList;
     }
 
     public String[] getShopList() {

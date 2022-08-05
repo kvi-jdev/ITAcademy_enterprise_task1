@@ -14,11 +14,11 @@ import java.util.regex.Pattern;
 
 public class ConsoleController {
 
-    final static Logger log = Logger.getLogger(ConsoleController.class.getName());
+    final static Logger log = Logger.getLogger(ConsoleController.class.getSimpleName());
 
     private String userName = "UNKNOWN_USER";
 
-    private Apartment apartment;
+    public Apartment apartment;
 
     private final ApartmentServiceImpl apartmentService;
 
@@ -64,7 +64,7 @@ public class ConsoleController {
         }
     }
 
-    private void openUserMenu() {
+    public void openUserMenu() {
         info("Вход в меню пользователя");
         Scanner scanner = new Scanner(System.in);
         System.out.println(MenuConstant.USER_MENU);
@@ -255,7 +255,7 @@ public class ConsoleController {
         }
     }
 
-    private boolean checkIfNumber(String input) {
+    public boolean checkIfNumber(String input) {
         try {
             Integer.parseInt(input);
         } catch (Exception e) {
@@ -265,7 +265,7 @@ public class ConsoleController {
         return Integer.parseInt(input) > 0 && Integer.parseInt(input) < 19;
     }
 
-    private boolean checkUserName(String userName) {
+    public boolean checkUserName(String userName) {
         Pattern pattern = Pattern.compile("\\w{3,15}");
         Matcher matcher = pattern.matcher(userName);
         return matcher.matches();
